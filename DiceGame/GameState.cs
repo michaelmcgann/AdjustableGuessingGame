@@ -9,7 +9,7 @@ public class GameState {
     public int ChosenRandomNumber { get; private set; }
     public bool HasWon { get; set; }
     public bool IsGameOver { get; private set; }
-    private const int DefaultStartingRangeNumber = 0;
+    private const int DefaultStartingRangeNumber = 1;
     private const int DefaultEndingRangeNumber = 6;
 
     public GameState() : this(DefaultStartingRangeNumber, 
